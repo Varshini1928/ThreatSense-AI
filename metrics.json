@@ -1,0 +1,148 @@
+{
+  "accuracy": 1.0,
+  "roc_auc": 1.0,
+  "report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2100.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 240.0
+    },
+    "3": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 210.0
+    },
+    "4": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 150.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2100,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      300,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      240,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      210,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      150
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "duration",
+      "importance": 0.1354
+    },
+    {
+      "feature": "dst_bytes",
+      "importance": 0.125
+    },
+    {
+      "feature": "dst_host_srv_count",
+      "importance": 0.1224
+    },
+    {
+      "feature": "num_failed_logins",
+      "importance": 0.1156
+    },
+    {
+      "feature": "count",
+      "importance": 0.1121
+    },
+    {
+      "feature": "hot",
+      "importance": 0.0975
+    },
+    {
+      "feature": "srv_count",
+      "importance": 0.0816
+    },
+    {
+      "feature": "dst_host_count",
+      "importance": 0.0803
+    },
+    {
+      "feature": "src_bytes",
+      "importance": 0.0492
+    },
+    {
+      "feature": "serror_rate",
+      "importance": 0.0362
+    },
+    {
+      "feature": "num_compromised",
+      "importance": 0.0341
+    },
+    {
+      "feature": "logged_in",
+      "importance": 0.004
+    },
+    {
+      "feature": "protocol_tcp",
+      "importance": 0.0031
+    },
+    {
+      "feature": "wrong_fragment",
+      "importance": 0.0026
+    },
+    {
+      "feature": "protocol_icmp",
+      "importance": 0.0006
+    }
+  ]
+}
